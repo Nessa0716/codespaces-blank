@@ -1,0 +1,208 @@
+
+#title {
+    text-align: center;
+    font-family: "Xanh Mono", monospace;
+  }
+  
+  #logo {
+    height: 100px;
+    width: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* FONTS */
+  .xanh-mono-regular-italic {
+    font-family: "Xanh Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .spline-sans-mono <> {
+    font-family: "Spline Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  /* FONTS END */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  /* Navbar styles */
+  
+  h3 {
+    font-family: "Xanh Mono", monospace;
+  
+  }
+  p {
+    font-family: "Spline Sans Mono", monospace;
+  
+  }
+  
+  #welcome {
+    height: 300px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: rgb(216, 216, 216); /* Apply teal background to container */
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .site-footer {
+    padding: 20px 0;
+    background: #222;
+    color: #fff;
+  }
+  
+  .footer-content .text-justify {
+    margin: 10px 0;
+  }
+  
+  .footer-links li {
+    list-style: none;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #maintitle {
+    margin-top: 2%;
+  text-align: center;
+  }
+  
+  #bg {
+    background-image: url("images/unnamed.jpg"); 
+    height: 800px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #cecece;
+    background-blend-mode: overlay;
+  
+  }
+  
+  /* carousel  */
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    overflow:;
+  }
+  
+  .product-carousel {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .product-card {
+    background-color: #a5f7fd;
+    border: 1px solid #d89f53;
+    border-radius: 5px;
+    width: 400px;
+    padding: 60px;
+    box-shadow: 0 2px 5px rgba(245, 159, 62, 0.1);
+    text-align: center;
+    flex: 0 0 auto;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-bottom: 50px solid #979797;
+    margin-bottom: 50px;
+  }
+  
+  .product-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    font-size: 20px;
+    margin:  0;
+  }
+  
+  .product-card button {
+    background-color: #e6964b;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.6s;
+  }
+  
+  .product-card button:hover {
+    background-color: #218838;
+  }
+  
+  .carousel-btn {
+    background-color: rgba(99, 243, 236, 0.5);
+    border: none;
+    color: rgb(218, 106, 54);
+    padding: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .prev-btn {
+    left: 0;
+  }
+  
+  .next-btn {
+    right: 0;
+  }
+  
+  /* reviews  */
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .contact-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #49dbf5;
+    color: rgb(241, 196, 112);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .contact-form button:hover {
+    background-color: #7f807f;
+  }
